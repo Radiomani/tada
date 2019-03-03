@@ -1,0 +1,27 @@
+{
+  "name": "ionic2app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "http://localhost:8100",
+      "proxyUrl": "https://charts.youtube.com"
+    },
+    {
+      "path": "https://charts.youtube.com",
+      "proxyUrl": "https://charts.youtube.com"
+    },
+    {
+      "path": "http://localhost:8100/https://charts.youtube.com/youtubei/v1/browse?&alt=json&key=AIzaSyCzEW7JUJdSql0-2V4tHUb6laYm4iAE_dM",
+      "proxyUrl": "https://charts.youtube.com/youtubei/v1/browse?&alt=json&key=AIzaSyCzEW7JUJdSql0-2V4tHUb6laYm4iAE_dM"
+    },
+    {
+      "path": "https://charts.youtube.com/youtubei/v1/browse?&alt=json&key=AIzaSyCzEW7JUJdSql0-2V4tHUb6laYm4iAE_dM",
+      "proxyUrl": "https://charts.youtube.com/youtubei/v1/browse?&alt=json&key=AIzaSyCzEW7JUJdSql0-2V4tHUb6laYm4iAE_dM"
+    }
+  ],
+  "pro_id": "2b03d01e",
+  "id": "2b03d01e"
+}
